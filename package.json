@@ -1,0 +1,9 @@
+{
+  "name": "pretty-aws-console",
+  "version": "0.0.1",
+  "description": "Make the AWS console a little prettier",
+  "main": "n/a",
+  "repository": "git@github.com:scottyeck/pretty-aws-console.git",
+  "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
+  "license": "MIT"
+}
