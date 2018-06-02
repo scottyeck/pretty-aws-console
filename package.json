@@ -6,10 +6,6 @@
   "repository": "git@github.com:scottyeck/pretty-aws-console.git",
   "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build:css": "babel-node ./scripts/build-css",
-    "build:js": "babel src/index.js --out-file dist/index.js"
-  },
   "devDependencies": {
     "app-root-dir": "1.0.2",
     "babel": "6.23.0",
