@@ -1,3 +1,7 @@
+/*
+ * Apply max-width and center UI content
+ */
+
 .pretty-aws-console-code-commit .page-shell {
   justify-content: center;
 }
@@ -5,6 +9,10 @@
 .pretty-aws-console-code-commit .page-content {
   max-width: 1200px;
 }
+
+/*
+ * Word-wrap in code diffs
+ */
 
 .pretty-aws-console-code-commit table.code {
   table-layout: fixed;
