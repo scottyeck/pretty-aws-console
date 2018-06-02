@@ -7,8 +7,8 @@
 
   "content_scripts": [
     {
-      "css": ["styles.css"],
-      "js": ["index.js"],
+      "css": ["src/styles.css"],
+      "js": ["src/index.js"],
       "matches": ["https://console.aws.amazon.com/codecommit/*"]
     }
   ]
