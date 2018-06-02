@@ -5,5 +5,10 @@
   "main": "n/a",
   "repository": "git@github.com:scottyeck/pretty-aws-console.git",
   "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "6.0.22",
+    "postcss-import": "11.1.0",
+    "precss": "3.1.2"
+  }
 }
