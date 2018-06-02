@@ -1,0 +1,29 @@
+.pretty-aws-console-code-commit {
+  /* Apply max-width and center UI content */
+
+  .page-shell {
+    justify-content: center;
+  }
+
+  .page-content {
+    max-width: 1200px;
+  }
+
+  /* Word wrap in code diffs */
+
+  table.code {
+    table-layout: fixed;
+
+    td.line_content {
+      padding-left: 20px;
+      white-space: pre-wrap;
+      position: relative;
+
+      &.old::before,
+      &.new::before {
+        position: absolute;
+        left: 10px;
+      }
+    }
+  }
+}
