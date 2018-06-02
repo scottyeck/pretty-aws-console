@@ -7,6 +7,9 @@
   "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
     "postcss": "6.0.22",
     "postcss-import": "11.1.0",
     "precss": "3.1.2"
