@@ -3,17 +3,13 @@ import postcss from "postcss";
 import fs from "fs";
 import path from "path";
 import { get as getAppRootDir } from "app-root-dir";
+import { argv } from "yargs";
+
+const outfile = argv["out-file"];
 
 const appRootDir = getAppRootDir();
-const srcDir = path.join(appRootDir, "src");
-const distDir = path.join(appRootDir, "dist");
-
-const srcCssPath = path.join(srcDir, "styles.pcss");
-const distCssPath = path.join(distDir, "styles.css");
-
-if (!fs.existsSync(distDir)) {
-  fs.mkdirSync(distDir);
-}
+const srcCssPath = path.join(appRootDir, "src/styles.pcss");
+const distCssPath = path.join(appRootDir, outfile);
 
 fs.readFile(srcCssPath, (err, css) => {
   postcss([precss])
